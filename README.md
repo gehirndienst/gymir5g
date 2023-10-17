@@ -4,10 +4,12 @@ Nikita Smirnov, Sven Tomforde: Real-Time Rate Control of WebRTC Video Streams in
 
 ## Installation (DOCKER ONLY)
 Pull docker image from Docker Hub:
-```docker pull gehirndienst/gymir5g_arcs23:latest
+```
+docker pull gehirndienst/gymir5g_arcs23:latest
 ```
 then run a container:
-```docker run -it --rm --name gymir5g_arcs23 gehirndienst/gymir5g_arcs23:latest bash
+```
+docker run -it --rm --name gymir5g_arcs23 gehirndienst/gymir5g_arcs23:latest bash
 ```
 
 attach vs-code to the container and install vs-code python and jupyter extensions. Selected pre-installed poetry environment as python interpreter
