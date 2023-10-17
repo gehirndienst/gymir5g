@@ -24,13 +24,13 @@ The full code for python part is presented in `gymirdrl` folder.
 ### experiments
 This folder contains the code, which was used to test the trained Soft Actor-Critic model for the paper (/arcs23). It is copied to the container and is located in /opt/omnetpp-workspace/gymir5g/experiments/arcs23 folder.
 
-logs_plots folder contains the experiments results and plots referenced in ARCS23 paper. It also contains the Jupyter notebook (plot.ipynb) used to generate the plots.
-training_logs folder contains the logs, metric, tb and omnetpp logs from the training.
-env_cfg.json is the configuration file for the environment.
-hparam_cfg.json is the configuration file for the hyperparameters used in the training.
-model.zip is the trained sb3 SAC model.
-paper.ipynb is the jupyter notebook with the code used to test the models and GCC on 3 validation scenarios mentioned in ARCS23 paper. NOTE: works only in the above mentioned container.
-stream_cfg.json is the configuration file for the stream used in the experiments. NOTE: it contains some not-omitted parameters that are not used in the experiments for ARCS23 paper.
+- logs_plots folder contains the experiments results and plots referenced in ARCS23 paper. It also contains the Jupyter notebook (plot.ipynb) used to generate the plots.
+- training_logs folder contains the logs, metric, tb and omnetpp logs from the training.
+- env_cfg.json is the configuration file for the environment.
+- hparam_cfg.json is the configuration file for the hyperparameters used in the training.
+- model.zip is the trained sb3 SAC model.
+- paper.ipynb is the jupyter notebook with the code used to test the models and GCC on 3 validation scenarios mentioned in ARCS23 paper. NOTE: works only in the above mentioned container.
+- stream_cfg.json is the configuration file for the stream used in the experiments. NOTE: it contains some not-omitted parameters that are not used in the experiments for ARCS23 paper.
 
 ### gcc
 This folder contains the C++ code for the GCC (Google Congestion Control) implementation used in the experiments for ARCS23 paper. Based on [https://github.com/thegreatwb/HRCC/](https://github.com/thegreatwb/HRCC/).
