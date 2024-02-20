@@ -1,8 +1,6 @@
 # source
 src/gymir5g
 src/gymir5g_dbg
-src/Makefile
-src/Makefile.vc
 /doc/doxy/
 /doc/neddoc/
 *.sca
