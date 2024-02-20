@@ -1,0 +1,2323 @@
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #0...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/0-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 552420   bytes: 0
+Sent: pckts 559843   bytes: 661743278
+Lost: pckts 7403    rate (%): 1.32238
+Ooo: pckts 0  rate (%): 0
+Played: pckts 552420   rate (%): 100 per avg playout delay (ms) 0
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 35268  rate (%): 6.38427 succes NACK rate (%): 64.2252 per avg retr delay (ms) 0
+Repaired AND retransmitted: pckts 0
+Delay current (ms): 7.60188   min/avg/max (ms): 0 / 0.0328277 / 64.1946
+Delay Jitter current (ms): 14.3519   avg (ms) 0.0133125
+Rtt current (ms): 20.6206   min/avg/max (ms): 14.5549 / 36.0094 / 102.736
+Rx Goodput curent (Mbps): 9.61527    /min/max 0.395232 / 10.5699
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.99902
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::run main loop has been externally finished...
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 552430 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #1...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/1-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 650335   bytes: 0
+Sent: pckts 654206   bytes: 783180874
+Lost: pckts 3857    rate (%): 0.589582
+Ooo: pckts 0  rate (%): 0
+Played: pckts 650335   rate (%): 100 per avg playout delay (ms) 0
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 26309  rate (%): 4.04545 succes NACK rate (%): 69.0181 per avg retr delay (ms) 0
+Repaired AND retransmitted: pckts 176530816
+Delay current (ms): 4.3148   min/avg/max (ms): 0 / 0.0202838 / 54.0162
+Delay Jitter current (ms): 1.10073   avg (ms) 0.00654556
+Rtt current (ms): 11.2822   min/avg/max (ms): 7.5062 / 25.8102 / 86.0558
+Rx Goodput curent (Mbps): 6.47994    /min/max 0.36688 / 11.1219
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999013
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 650342 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #2...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/2-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 681459   bytes: 0
+Sent: pckts 690777   bytes: 831089155
+Lost: pckts 9300    rate (%): 1.34635
+Ooo: pckts 0  rate (%): 0
+Played: pckts 681459   rate (%): 100 per avg playout delay (ms) 0
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 14556  rate (%): 2.13601 succes NACK rate (%): 50.4908 per avg retr delay (ms) 0
+Repaired AND retransmitted: pckts 0
+Delay current (ms): 6.71139   min/avg/max (ms): 0 / 0.0183259 / 69.8007
+Delay Jitter current (ms): 0.24313   avg (ms) 0.00657675
+Rtt current (ms): 13.9248   min/avg/max (ms): 8.90432 / 24.4077 / 65.094
+Rx Goodput curent (Mbps): 8.57746    /min/max 0.577896 / 10.7524
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999019
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 681468 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #3...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/3-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 711197   bytes: 0
+Sent: pckts 716741   bytes: 866113312
+Lost: pckts 5505    rate (%): 0.768102
+Ooo: pckts 0  rate (%): 0
+Played: pckts 711197   rate (%): 100 per avg playout delay (ms) 69.6592
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 20394  rate (%): 2.86756 succes NACK rate (%): 61.4092 per avg retr delay (ms) 0
+Repaired AND retransmitted: pckts 0
+Delay current (ms): 11.7932   min/avg/max (ms): 0 / 0.0175497 / 53.2651
+Delay Jitter current (ms): 2.38658   avg (ms) 0.00630966
+Rtt current (ms): 17.0456   min/avg/max (ms): 7.81075 / 24.4289 / 66.4364
+Rx Goodput curent (Mbps): 9.25478    /min/max 0.447184 / 10.525
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999017
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 711197 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #4...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/4-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 797146   bytes: 0
+Sent: pckts 837380   bytes: 1020783720
+Lost: pckts 40216    rate (%): 4.8027
+Ooo: pckts 0  rate (%): 0
+Played: pckts 797146   rate (%): 100 per avg playout delay (ms) 2.73253
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 55144  rate (%): 6.91768 succes NACK rate (%): 37.9858 per avg retr delay (ms) 102.951
+Repaired AND retransmitted: pckts 0
+Delay current (ms): 14.8492   min/avg/max (ms): 0 / 0.0262812 / 673.738
+Delay Jitter current (ms): 7.07066   avg (ms) 0.0104849
+Rtt current (ms): 40.4343   min/avg/max (ms): 8.04086 / 40.7758 / 438.024
+Rx Goodput curent (Mbps): 8.45326    /min/max 0.545736 / 11.0591
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999019
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 797155 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #5...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/5-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 902951   bytes: 0
+Sent: pckts 906084   bytes: 1112366453
+Lost: pckts 3113    rate (%): 0.343574
+Ooo: pckts 0  rate (%): 0
+Played: pckts 902951   rate (%): 100 per avg playout delay (ms) 0
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 17447  rate (%): 1.93222 succes NACK rate (%): 68.8163 per avg retr delay (ms) 0
+Repaired AND retransmitted: pckts 0
+Delay current (ms): 6.03912   min/avg/max (ms): 0 / 0.0119087 / 49.8689
+Delay Jitter current (ms): 0.835163   avg (ms) 0.00405022
+Rtt current (ms): 9.41852   min/avg/max (ms): 8.06503 / 21.0942 / 50.6889
+Rx Goodput curent (Mbps): 9.60764    /min/max 0.870224 / 10.6602
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999015
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 902961 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #6...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/6-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 965562   bytes: 0
+Sent: pckts 983583   bytes: 1201064113
+Lost: pckts 18001    rate (%): 1.83018
+Ooo: pckts 0  rate (%): 0
+Played: pckts 965562   rate (%): 100 per avg playout delay (ms) 7.23941
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 54575  rate (%): 5.65215 succes NACK rate (%): 54.6203 per avg retr delay (ms) 71.7487
+Repaired AND retransmitted: pckts 0
+Delay current (ms): 18.0445   min/avg/max (ms): 0 / 0.0295695 / 1710.6
+Delay Jitter current (ms): 5.56291   avg (ms) 0.0117038
+Rtt current (ms): 41.1152   min/avg/max (ms): 8.83476 / 55.7986 / 1663.37
+Rx Goodput curent (Mbps): 9.92323    /min/max 0.16844 / 11.3967
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999021
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::run main loop has been externally finished...
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 965572 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #7...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/7-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 955491   bytes: 0
+Sent: pckts 1002177   bytes: 1233174172
+Lost: pckts 46656    rate (%): 4.6556
+Ooo: pckts 0  rate (%): 0
+Played: pckts 955491   rate (%): 100 per avg playout delay (ms) 0
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 74964  rate (%): 7.8456 succes NACK rate (%): 46.939 per avg retr delay (ms) 0
+Repaired AND retransmitted: pckts 0
+Delay current (ms): 8.23023   min/avg/max (ms): 0 / 0.0207767 / 50.8963
+Delay Jitter current (ms): 10.2543   avg (ms) 0.00585259
+Rtt current (ms): 23.9717   min/avg/max (ms): 11.0904 / 38.9519 / 77.2079
+Rx Goodput curent (Mbps): 9.6539    /min/max 0.679032 / 10.9459
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999015
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 955511 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #8...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/8-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 933057   bytes: 0
+Sent: pckts 934508   bytes: 1145232951
+Lost: pckts 1433    rate (%): 0.153346
+Ooo: pckts 0  rate (%): 0
+Played: pckts 933057   rate (%): 100 per avg playout delay (ms) 0
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 24407  rate (%): 2.61581 succes NACK rate (%): 83.6831 per avg retr delay (ms) 0
+Repaired AND retransmitted: pckts 0
+Delay current (ms): 7.50988   min/avg/max (ms): 0 / 0.0130218 / 47.9079
+Delay Jitter current (ms): 0.437017   avg (ms) 0.00389404
+Rtt current (ms): 26.9131   min/avg/max (ms): 8.24132 / 23.6531 / 84.295
+Rx Goodput curent (Mbps): 8.56276    /min/max 0.420448 / 10.8717
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.99902
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 933066 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #9...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/9-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 947047   bytes: 0
+Sent: pckts 951044   bytes: 1164263635
+Lost: pckts 3981    rate (%): 0.4186
+Ooo: pckts 0  rate (%): 0
+Played: pckts 947047   rate (%): 100 per avg playout delay (ms) 0
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 16897  rate (%): 1.78418 succes NACK rate (%): 65.955 per avg retr delay (ms) 0
+Repaired AND retransmitted: pckts 1446903088
+Delay current (ms): 7.72327   min/avg/max (ms): 0 / 0.0110099 / 53.4408
+Delay Jitter current (ms): 0.0424923   avg (ms) 0.00306372
+Rtt current (ms): 15.9667   min/avg/max (ms): 8.05452 / 20.5271 / 83.5685
+Rx Goodput curent (Mbps): 8.25439    /min/max 2.38683 / 10.9095
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999019
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 947055 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #10...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/10-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 948111   bytes: 0
+Sent: pckts 951227   bytes: 1163407328
+Lost: pckts 3102    rate (%): 0.32611
+Ooo: pckts 0  rate (%): 0
+Played: pckts 948111   rate (%): 100 per avg playout delay (ms) 0
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 36303  rate (%): 3.82898 succes NACK rate (%): 77.1764 per avg retr delay (ms) 0
+Repaired AND retransmitted: pckts 0
+Delay current (ms): 9.58821   min/avg/max (ms): 0 / 0.0149639 / 51.2034
+Delay Jitter current (ms): 2.82186   avg (ms) 0.0045766
+Rtt current (ms): 21.4191   min/avg/max (ms): 9.44498 / 27.8532 / 77.086
+Rx Goodput curent (Mbps): 6.9977    /min/max 3.09442 / 10.9846
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999021
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 948118 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #11...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/11-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 936281   bytes: 0
+Sent: pckts 948628   bytes: 1167695094
+Lost: pckts 12327    rate (%): 1.29948
+Ooo: pckts 0  rate (%): 0
+Played: pckts 936281   rate (%): 100 per avg playout delay (ms) 0
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 39010  rate (%): 4.16648 succes NACK rate (%): 59.3407 per avg retr delay (ms) 0
+Repaired AND retransmitted: pckts -1335679520
+Delay current (ms): 5.2368   min/avg/max (ms): 0 / 0.0156224 / 48.2516
+Delay Jitter current (ms): 0.0307367   avg (ms) 0.00512325
+Rtt current (ms): 15.1724   min/avg/max (ms): 9.40669 / 28.9545 / 69.4609
+Rx Goodput curent (Mbps): 9.50803    /min/max 2.29806 / 11.0914
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999018
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 936291 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #12...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/12-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 935704   bytes: 0
+Sent: pckts 940855   bytes: 1154551843
+Lost: pckts 5124    rate (%): 0.544627
+Ooo: pckts 0  rate (%): 0
+Played: pckts 935704   rate (%): 100 per avg playout delay (ms) 0
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 17045  rate (%): 1.82162 succes NACK rate (%): 62.2535 per avg retr delay (ms) 0
+Repaired AND retransmitted: pckts -1339280336
+Delay current (ms): 6.91282   min/avg/max (ms): 0 / 0.012634 / 43.7979
+Delay Jitter current (ms): 0.0462532   avg (ms) 0.00329318
+Rtt current (ms): 12.7194   min/avg/max (ms): 10.6074 / 23.1203 / 60.149
+Rx Goodput curent (Mbps): 9.20759    /min/max 2.29402 / 11.0906
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999013
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 935722 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #13...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/13-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 915797   bytes: 0
+Sent: pckts 921820   bytes: 1128999580
+Lost: pckts 6005    rate (%): 0.651441
+Ooo: pckts 0  rate (%): 0
+Played: pckts 915797   rate (%): 100 per avg playout delay (ms) 0
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 20513  rate (%): 2.23991 succes NACK rate (%): 61.2896 per avg retr delay (ms) 0
+Repaired AND retransmitted: pckts 0
+Delay current (ms): 7.16088   min/avg/max (ms): 0 / 0.0123083 / 51.4736
+Delay Jitter current (ms): 0.0609178   avg (ms) 0.0033707
+Rtt current (ms): 15.0374   min/avg/max (ms): 8.47707 / 22.0089 / 72.8229
+Rx Goodput curent (Mbps): 9.2722    /min/max 2.70016 / 10.9805
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999019
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 915806 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #14...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/14-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 925229   bytes: 0
+Sent: pckts 928822   bytes: 1135989804
+Lost: pckts 3563    rate (%): 0.383617
+Ooo: pckts 0  rate (%): 0
+Played: pckts 925229   rate (%): 100 per avg playout delay (ms) 0
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 23609  rate (%): 2.55169 succes NACK rate (%): 71.5099 per avg retr delay (ms) 0
+Repaired AND retransmitted: pckts 0
+Delay current (ms): 7.34908   min/avg/max (ms): 0 / 0.0125257 / 42.8268
+Delay Jitter current (ms): 0.334395   avg (ms) 0.00367683
+Rtt current (ms): 15.2508   min/avg/max (ms): 9.26901 / 22.6499 / 58.7299
+Rx Goodput curent (Mbps): 9.44398    /min/max 2.62307 / 10.9048
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999014
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 925248 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #15...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/15-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 950616   bytes: 0
+Sent: pckts 952432   bytes: 1172748669
+Lost: pckts 1796    rate (%): 0.188574
+Ooo: pckts 0  rate (%): 0
+Played: pckts 950616   rate (%): 100 per avg playout delay (ms) 0
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 31403  rate (%): 3.30344 succes NACK rate (%): 80.971 per avg retr delay (ms) 0
+Repaired AND retransmitted: pckts 75361792
+Delay current (ms): 5.71542   min/avg/max (ms): 0 / 0.0114099 / 44.7059
+Delay Jitter current (ms): 0.178216   avg (ms) 0.00401358
+Rtt current (ms): 13.0832   min/avg/max (ms): 8.46376 / 21.1927 / 54.888
+Rx Goodput curent (Mbps): 9.91834    /min/max 1.42904 / 10.8765
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999018
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::run main loop has been externally finished...
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 950626 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #16...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/16-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 971121   bytes: 0
+Sent: pckts 973722   bytes: 1191883816
+Lost: pckts 2581    rate (%): 0.265071
+Ooo: pckts 0  rate (%): 0
+Played: pckts 971121   rate (%): 100 per avg playout delay (ms) 0
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 11680  rate (%): 1.20273 succes NACK rate (%): 67.5809 per avg retr delay (ms) 0
+Repaired AND retransmitted: pckts 0
+Delay current (ms): 3.99706   min/avg/max (ms): 0 / 0.00970573 / 33.783
+Delay Jitter current (ms): 0.107902   avg (ms) 0.00255595
+Rtt current (ms): 9.84149   min/avg/max (ms): 7.74171 / 18.488 / 37.3183
+Rx Goodput curent (Mbps): 9.45611    /min/max 3.28428 / 11.0296
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999017
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 971131 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #17...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/17-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 939235   bytes: 0
+Sent: pckts 952157   bytes: 1166124649
+Lost: pckts 12902    rate (%): 1.35506
+Ooo: pckts 0  rate (%): 0
+Played: pckts 939235   rate (%): 100 per avg playout delay (ms) 13.338
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 23424  rate (%): 2.49394 succes NACK rate (%): 46.5908 per avg retr delay (ms) 81.2486
+Repaired AND retransmitted: pckts 0
+Delay current (ms): 21.5413   min/avg/max (ms): 0 / 0.0210361 / 1155.32
+Delay Jitter current (ms): 1.13844   avg (ms) 0.00912881
+Rtt current (ms): 38.8326   min/avg/max (ms): 9.77468 / 38.4565 / 929.396
+Rx Goodput curent (Mbps): 9.55269    /min/max 0.365776 / 14.7889
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999015
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 939245 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #18...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/18-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 974817   bytes: 0
+Sent: pckts 989826   bytes: 1209085454
+Lost: pckts 14989    rate (%): 1.51434
+Ooo: pckts 0  rate (%): 0
+Played: pckts 974817   rate (%): 100 per avg playout delay (ms) 0
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 41209  rate (%): 4.22736 succes NACK rate (%): 60.0776 per avg retr delay (ms) 0
+Repaired AND retransmitted: pckts 838852080
+Delay current (ms): 3.80699   min/avg/max (ms): 0 / 0.0149659 / 47.3215
+Delay Jitter current (ms): 0.0139878   avg (ms) 0.00488434
+Rtt current (ms): 7.72599   min/avg/max (ms): 7.72599 / 28.6329 / 57.1348
+Rx Goodput curent (Mbps): 9.38831    /min/max 4.24042 / 11.0097
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999019
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 974827 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #19...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/19-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 973376   bytes: 0
+Sent: pckts 981559   bytes: 1204223513
+Lost: pckts 8163    rate (%): 0.831653
+Ooo: pckts 0  rate (%): 0
+Played: pckts 973376   rate (%): 100 per avg playout delay (ms) 0.5459
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 12397  rate (%): 1.27361 succes NACK rate (%): 46.1181 per avg retr delay (ms) 74.722
+Repaired AND retransmitted: pckts 0
+Delay current (ms): 8.90194   min/avg/max (ms): 0 / 0.0109165 / 42.5988
+Delay Jitter current (ms): 1.46678   avg (ms) 0.00256628
+Rtt current (ms): 15.2818   min/avg/max (ms): 11.7749 / 20.8883 / 64.2715
+Rx Goodput curent (Mbps): 9.57732    /min/max 4.03126 / 11.0041
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999017
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 973386 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #20...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/20-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 954937   bytes: 0
+Sent: pckts 964231   bytes: 1180280185
+Lost: pckts 9229    rate (%): 0.9572
+Ooo: pckts 0  rate (%): 0
+Played: pckts 954921   rate (%): 99.9983 per avg playout delay (ms) 2.52095
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 37461  rate (%): 3.92288 succes NACK rate (%): 61.5234 per avg retr delay (ms) 82.1503
+Repaired AND retransmitted: pckts 0
+Delay current (ms): 12.2827   min/avg/max (ms): 0 / 0.0140783 / 51.5001
+Delay Jitter current (ms): 5.5446   avg (ms) 0.00494703
+Rtt current (ms): 42.8342   min/avg/max (ms): 8.87321 / 26.1648 / 63.3305
+Rx Goodput curent (Mbps): 8.51154    /min/max 1.8272 / 10.9694
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999013
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 954937 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #21...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/21-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 957160   bytes: 0
+Sent: pckts 969368   bytes: 1185306797
+Lost: pckts 12190    rate (%): 1.25754
+Ooo: pckts 0  rate (%): 0
+Played: pckts 957160   rate (%): 100 per avg playout delay (ms) 0
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 48328  rate (%): 5.0491 succes NACK rate (%): 60.2969 per avg retr delay (ms) 0
+Repaired AND retransmitted: pckts 0
+Delay current (ms): 7.3603   min/avg/max (ms): 0 / 0.0160249 / 49.762
+Delay Jitter current (ms): 0.43744   avg (ms) 0.00577939
+Rtt current (ms): 46.4141   min/avg/max (ms): 9.84974 / 30.2734 / 88.5267
+Rx Goodput curent (Mbps): 6.21803    /min/max 1.46748 / 11.2275
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999016
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 957171 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #22...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/22-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 922390   bytes: 0
+Sent: pckts 974684   bytes: 1191644936
+Lost: pckts 52267    rate (%): 5.3626
+Ooo: pckts 0  rate (%): 0
+Played: pckts 922390   rate (%): 100 per avg playout delay (ms) 0
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 74965  rate (%): 8.12726 succes NACK rate (%): 37.7363 per avg retr delay (ms) 0
+Repaired AND retransmitted: pckts 0
+Delay current (ms): 7.0054   min/avg/max (ms): 0 / 0.0219259 / 73.4653
+Delay Jitter current (ms): 0.129547   avg (ms) 0.00523888
+Rtt current (ms): 39.2036   min/avg/max (ms): 8.61361 / 39.3651 / 94.1047
+Rx Goodput curent (Mbps): 9.24425    /min/max 0.824048 / 10.815
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999015
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 922408 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #23...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/23-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 954031   bytes: 0
+Sent: pckts 955568   bytes: 1172067489
+Lost: pckts 1517    rate (%): 0.158757
+Ooo: pckts 0  rate (%): 0
+Played: pckts 954031   rate (%): 100 per avg playout delay (ms) 0
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 13744  rate (%): 1.44062 succes NACK rate (%): 71.9694 per avg retr delay (ms) 0
+Repaired AND retransmitted: pckts -2045248592
+Delay current (ms): 4.47112   min/avg/max (ms): 0 / 0.0098403 / 42.4533
+Delay Jitter current (ms): 0.696792   avg (ms) 0.00254645
+Rtt current (ms): 8.06955   min/avg/max (ms): 7.94488 / 18.3975 / 44.6808
+Rx Goodput curent (Mbps): 9.80649    /min/max 3.50208 / 10.7976
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999016
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 954041 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #24...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/24-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 985864   bytes: 0
+Sent: pckts 991449   bytes: 1215726005
+Lost: pckts 5569    rate (%): 0.561712
+Ooo: pckts 0  rate (%): 0
+Played: pckts 985864   rate (%): 100 per avg playout delay (ms) 0
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 33638  rate (%): 3.41203 succes NACK rate (%): 66.4546 per avg retr delay (ms) 0
+Repaired AND retransmitted: pckts 142863824
+Delay current (ms): 5.22727   min/avg/max (ms): 0 / 0.0125015 / 98.4413
+Delay Jitter current (ms): 0.0315297   avg (ms) 0.00423726
+Rtt current (ms): 10.6728   min/avg/max (ms): 7.94603 / 24.107 / 74.9201
+Rx Goodput curent (Mbps): 9.14361    /min/max 3.43798 / 11.9542
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999018
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 985872 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #25...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/25-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 958099   bytes: 0
+Sent: pckts 967911   bytes: 1187972768
+Lost: pckts 9793    rate (%): 1.01179
+Ooo: pckts 0  rate (%): 0
+Played: pckts 958099   rate (%): 100 per avg playout delay (ms) 3.37336
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 43192  rate (%): 4.50809 succes NACK rate (%): 62.2605 per avg retr delay (ms) 81.2485
+Repaired AND retransmitted: pckts 36
+Delay current (ms): 14.6322   min/avg/max (ms): 0 / 0.0149421 / 218.939
+Delay Jitter current (ms): 2.43818   avg (ms) 0.0052213
+Rtt current (ms): 31.9669   min/avg/max (ms): 7.86399 / 27.8646 / 118.778
+Rx Goodput curent (Mbps): 10.0759    /min/max 1.03063 / 11.019
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999018
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 958108 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #26...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/26-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 957044   bytes: 0
+Sent: pckts 965643   bytes: 1186349398
+Lost: pckts 8579    rate (%): 0.888442
+Ooo: pckts 0  rate (%): 0
+Played: pckts 957044   rate (%): 100 per avg playout delay (ms) 2.72016
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 41022  rate (%): 4.28632 succes NACK rate (%): 63.9779 per avg retr delay (ms) 85.3191
+Repaired AND retransmitted: pckts 0
+Delay current (ms): 15.1297   min/avg/max (ms): 0 / 0.0138448 / 59.4092
+Delay Jitter current (ms): 2.9828   avg (ms) 0.00402312
+Rtt current (ms): 31.8683   min/avg/max (ms): 8.24497 / 25.8237 / 74.4471
+Rx Goodput curent (Mbps): 10.0803    /min/max 0.301936 / 10.606
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.99902
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 957054 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #27...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/27-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 949221   bytes: 0
+Sent: pckts 957985   bytes: 1173879382
+Lost: pckts 8744    rate (%): 0.912768
+Ooo: pckts 0  rate (%): 0
+Played: pckts 949221   rate (%): 100 per avg playout delay (ms) 0
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 34897  rate (%): 3.67638 succes NACK rate (%): 61.625 per avg retr delay (ms) 0
+Repaired AND retransmitted: pckts 0
+Delay current (ms): 7.21203   min/avg/max (ms): 0 / 0.0137975 / 46.6473
+Delay Jitter current (ms): 4.12228   avg (ms) 0.00393774
+Rtt current (ms): 19.2513   min/avg/max (ms): 10.5459 / 25.5426 / 67.2832
+Rx Goodput curent (Mbps): 9.5411    /min/max 4.09154 / 10.8392
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999019
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 949231 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #28...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/28-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 979002   bytes: 0
+Sent: pckts 985259   bytes: 1202636450
+Lost: pckts 6229    rate (%): 0.632238
+Ooo: pckts 0  rate (%): 0
+Played: pckts 979002   rate (%): 100 per avg playout delay (ms) 5.78961
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 37507  rate (%): 3.83115 succes NACK rate (%): 71.1249 per avg retr delay (ms) 81.9867
+Repaired AND retransmitted: pckts 569272032
+Delay current (ms): 14.8395   min/avg/max (ms): 0 / 0.015025 / 46.3197
+Delay Jitter current (ms): 0.42405   avg (ms) 0.00502051
+Rtt current (ms): 33.2511   min/avg/max (ms): 7.98691 / 28.6405 / 63.6041
+Rx Goodput curent (Mbps): 9.74792    /min/max 0.72328 / 11.03
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999014
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 979020 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #29...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/29-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 947608   bytes: 0
+Sent: pckts 956865   bytes: 1172698582
+Lost: pckts 9109    rate (%): 0.95211
+Ooo: pckts 0  rate (%): 0
+Played: pckts 947471   rate (%): 99.9855 per avg playout delay (ms) 154.315
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 20598  rate (%): 2.17368 succes NACK rate (%): 52.6776 per avg retr delay (ms) 208.21
+Repaired AND retransmitted: pckts 1936232512
+Delay current (ms): 37.3548   min/avg/max (ms): 0 / 0.0119601 / 47.5567
+Delay Jitter current (ms): 3.69044   avg (ms) 0.00345142
+Rtt current (ms): 62.324   min/avg/max (ms): 7.49595 / 21.8249 / 64.0097
+Rx Goodput curent (Mbps): 7.88055    /min/max 2.7065 / 10.7428
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999014
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 947608 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #30...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/30-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 927474   bytes: 0
+Sent: pckts 954033   bytes: 1166956289
+Lost: pckts 26542    rate (%): 2.78213
+Ooo: pckts 0  rate (%): 0
+Played: pckts 927474   rate (%): 100 per avg playout delay (ms) 0
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 43313  rate (%): 4.67 succes NACK rate (%): 42.4779 per avg retr delay (ms) 0
+Repaired AND retransmitted: pckts 0
+Delay current (ms): 7.11738   min/avg/max (ms): 0 / 0.0161018 / 63.7208
+Delay Jitter current (ms): 0.161496   avg (ms) 0.00474616
+Rtt current (ms): 14.3481   min/avg/max (ms): 8.41907 / 29.1956 / 95.5854
+Rx Goodput curent (Mbps): 7.61686    /min/max 0.53508 / 11.2328
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999016
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 927482 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #31...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/31-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 974015   bytes: 0
+Sent: pckts 984324   bytes: 1208711783
+Lost: pckts 10289    rate (%): 1.04531
+Ooo: pckts 0  rate (%): 0
+Played: pckts 974015   rate (%): 100 per avg playout delay (ms) 0.678133
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 17411  rate (%): 1.78755 succes NACK rate (%): 51.0871 per avg retr delay (ms) 83.0168
+Repaired AND retransmitted: pckts 0
+Delay current (ms): 9.30886   min/avg/max (ms): 0 / 0.0125292 / 40.2549
+Delay Jitter current (ms): 1.67184   avg (ms) 0.00392509
+Rtt current (ms): 18.8731   min/avg/max (ms): 7.23806 / 23.8248 / 56.6129
+Rx Goodput curent (Mbps): 9.36913    /min/max 1.82863 / 10.8913
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999018
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 974025 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #32...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/32-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 941098   bytes: 0
+Sent: pckts 944068   bytes: 1160342933
+Lost: pckts 2950    rate (%): 0.312484
+Ooo: pckts 0  rate (%): 0
+Played: pckts 941098   rate (%): 100 per avg playout delay (ms) 0
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 11074  rate (%): 1.17671 succes NACK rate (%): 63.4504 per avg retr delay (ms) 0
+Repaired AND retransmitted: pckts 0
+Delay current (ms): 6.98544   min/avg/max (ms): 0 / 0.00994842 / 49.5336
+Delay Jitter current (ms): 0.735891   avg (ms) 0.00295488
+Rtt current (ms): 19.3938   min/avg/max (ms): 8.48329 / 18.2661 / 44.8955
+Rx Goodput curent (Mbps): 9.42838    /min/max 0.882088 / 10.8717
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999018
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 941108 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #33...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/33-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 941583   bytes: 0
+Sent: pckts 960424   bytes: 1176844030
+Lost: pckts 18811    rate (%): 1.95868
+Ooo: pckts 0  rate (%): 0
+Played: pckts 941583   rate (%): 100 per avg playout delay (ms) 0
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 10795  rate (%): 1.14647 succes NACK rate (%): 29.1339 per avg retr delay (ms) 0
+Repaired AND retransmitted: pckts 0
+Delay current (ms): 7.19496   min/avg/max (ms): 0 / 0.012569 / 42.8867
+Delay Jitter current (ms): 0.137539   avg (ms) 0.00424807
+Rtt current (ms): 15.4695   min/avg/max (ms): 8.24664 / 23.117 / 54.1503
+Rx Goodput curent (Mbps): 9.28691    /min/max 0.819528 / 10.6448
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999019
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 941603 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #34...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/34-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 946947   bytes: 0
+Sent: pckts 967449   bytes: 1190306611
+Lost: pckts 20472    rate (%): 2.11615
+Ooo: pckts 0  rate (%): 0
+Played: pckts 946947   rate (%): 100 per avg playout delay (ms) 4.66994
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 49818  rate (%): 5.26091 succes NACK rate (%): 53.6687 per avg retr delay (ms) 84.5241
+Repaired AND retransmitted: pckts 0
+Delay current (ms): 13.3001   min/avg/max (ms): 0 / 0.0150561 / 64.9622
+Delay Jitter current (ms): 6.89471   avg (ms) 0.00486036
+Rtt current (ms): 30.6864   min/avg/max (ms): 7.96258 / 27.7489 / 82.4625
+Rx Goodput curent (Mbps): 9.59309    /min/max 0.775832 / 10.6716
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999013
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 946968 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #35...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/35-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 950951   bytes: 0
+Sent: pckts 973349   bytes: 1190936031
+Lost: pckts 22382    rate (%): 2.29952
+Ooo: pckts 0  rate (%): 0
+Played: pckts 950951   rate (%): 100 per avg playout delay (ms) 0.803439
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 85415  rate (%): 8.98206 succes NACK rate (%): 56.7813 per avg retr delay (ms) 96.7452
+Repaired AND retransmitted: pckts -1304498224
+Delay current (ms): 9.69944   min/avg/max (ms): 0 / 0.0208125 / 61.7335
+Delay Jitter current (ms): 23.5491   avg (ms) 0.00680903
+Rtt current (ms): 65.9628   min/avg/max (ms): 10.3348 / 39.0463 / 118.693
+Rx Goodput curent (Mbps): 7.75094    /min/max 0.516496 / 10.9968
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999021
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 950951 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #36...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/36-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 966441   bytes: 0
+Sent: pckts 980285   bytes: 1199429260
+Lost: pckts 13718    rate (%): 1.39957
+Ooo: pckts 0  rate (%): 0
+Played: pckts 966341   rate (%): 99.9897 per avg playout delay (ms) 156.979
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 24526  rate (%): 2.53776 succes NACK rate (%): 51.098 per avg retr delay (ms) 133.268
+Repaired AND retransmitted: pckts 1542150976
+Delay current (ms): 40.8676   min/avg/max (ms): 0 / 0.0132566 / 44.7007
+Delay Jitter current (ms): 3.85944   avg (ms) 0.00431924
+Rtt current (ms): 50.5939   min/avg/max (ms): 8.63748 / 24.7967 / 60.6698
+Rx Goodput curent (Mbps): 7.48001    /min/max 2.59479 / 10.9928
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999017
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 966441 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #37...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/37-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 943238   bytes: 0
+Sent: pckts 946660   bytes: 1162994461
+Lost: pckts 3392    rate (%): 0.358324
+Ooo: pckts 0  rate (%): 0
+Played: pckts 943238   rate (%): 100 per avg playout delay (ms) 0
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 21251  rate (%): 2.25298 succes NACK rate (%): 69.4863 per avg retr delay (ms) 0
+Repaired AND retransmitted: pckts 552755952
+Delay current (ms): 3.59802   min/avg/max (ms): 0 / 0.0115342 / 45.6828
+Delay Jitter current (ms): 0.223155   avg (ms) 0.00356676
+Rtt current (ms): 12.546   min/avg/max (ms): 9.57843 / 21.2746 / 64.5287
+Rx Goodput curent (Mbps): 9.80027    /min/max 2.9959 / 10.9217
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999014
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 943258 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #38...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/38-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 966835   bytes: 0
+Sent: pckts 970954   bytes: 1186145005
+Lost: pckts 4008    rate (%): 0.412837
+Ooo: pckts 0  rate (%): 0
+Played: pckts 966754   rate (%): 99.9916 per avg playout delay (ms) 85.2767
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 53805  rate (%): 5.56507 succes NACK rate (%): 79.8223 per avg retr delay (ms) 241.139
+Repaired AND retransmitted: pckts -1659341920
+Delay current (ms): 16.5689   min/avg/max (ms): 0 / 0.0160665 / 53.4046
+Delay Jitter current (ms): 3.2947   avg (ms) 0.0048252
+Rtt current (ms): 32.5107   min/avg/max (ms): 10.0219 / 30.2405 / 88.3869
+Rx Goodput curent (Mbps): 8.81914    /min/max 2.3672 / 11.2365
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999018
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 966924 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #39...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/39-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 965168   bytes: 0
+Sent: pckts 969744   bytes: 1186773592
+Lost: pckts 4550    rate (%): 0.469209
+Ooo: pckts 0  rate (%): 0
+Played: pckts 965168   rate (%): 100 per avg playout delay (ms) 0.453319
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 13800  rate (%): 1.4298 succes NACK rate (%): 61.522 per avg retr delay (ms) 74.4659
+Repaired AND retransmitted: pckts 0
+Delay current (ms): 9.86493   min/avg/max (ms): 0 / 0.0107583 / 43.6748
+Delay Jitter current (ms): 1.54948   avg (ms) 0.00282654
+Rtt current (ms): 18.7457   min/avg/max (ms): 9.27659 / 20.2676 / 41.4684
+Rx Goodput curent (Mbps): 8.81867    /min/max 2.78163 / 10.7175
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999013
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 965186 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #40...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/40-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 937292   bytes: 0
+Sent: pckts 957308   bytes: 1169692684
+Lost: pckts 19862    rate (%): 2.07511
+Ooo: pckts 0  rate (%): 0
+Played: pckts 937269   rate (%): 99.9975 per avg playout delay (ms) 31.9086
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 41088  rate (%): 4.38369 succes NACK rate (%): 47.2847 per avg retr delay (ms) 208.525
+Repaired AND retransmitted: pckts 671610688
+Delay current (ms): 70.2099   min/avg/max (ms): 0 / 0.0203035 / 479.077
+Delay Jitter current (ms): 42.8759   avg (ms) 0.0110373
+Rtt current (ms): 124.085   min/avg/max (ms): 9.75447 / 36.4522 / 364.379
+Rx Goodput curent (Mbps): 9.49734    /min/max 0.063408 / 11.5848
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999017
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 937293 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #41...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/41-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 965405   bytes: 0
+Sent: pckts 980624   bytes: 1204626908
+Lost: pckts 15201    rate (%): 1.55016
+Ooo: pckts 0  rate (%): 0
+Played: pckts 965405   rate (%): 100 per avg playout delay (ms) 0
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 55607  rate (%): 5.75997 succes NACK rate (%): 60.7647 per avg retr delay (ms) 0
+Repaired AND retransmitted: pckts 0
+Delay current (ms): 5.49106   min/avg/max (ms): 0 / 0.019121 / 58.4471
+Delay Jitter current (ms): 0.240893   avg (ms) 0.00597776
+Rtt current (ms): 22.045   min/avg/max (ms): 13.3043 / 36.3141 / 75.5491
+Rx Goodput curent (Mbps): 9.7418    /min/max 2.73491 / 10.9654
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999018
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 965415 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #42...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/42-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 953594   bytes: 0
+Sent: pckts 956994   bytes: 1173829028
+Lost: pckts 3379    rate (%): 0.353093
+Ooo: pckts 0  rate (%): 0
+Played: pckts 953594   rate (%): 100 per avg playout delay (ms) 0
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 16786  rate (%): 1.76029 succes NACK rate (%): 68.8064 per avg retr delay (ms) 0
+Repaired AND retransmitted: pckts 0
+Delay current (ms): 5.85133   min/avg/max (ms): 0 / 0.0104131 / 41.4482
+Delay Jitter current (ms): 0.212006   avg (ms) 0.0034537
+Rtt current (ms): 26.3766   min/avg/max (ms): 9.77526 / 19.5004 / 46.7487
+Rx Goodput curent (Mbps): 9.72653    /min/max 1.4451 / 10.9202
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999018
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 953604 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #43...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/43-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 926632   bytes: 0
+Sent: pckts 966137   bytes: 1180632469
+Lost: pckts 39485    rate (%): 4.08698
+Ooo: pckts 0  rate (%): 0
+Played: pckts 926632   rate (%): 100 per avg playout delay (ms) 0
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 27839  rate (%): 3.00432 succes NACK rate (%): 32.3112 per avg retr delay (ms) 0
+Repaired AND retransmitted: pckts 543888624
+Delay current (ms): 5.5451   min/avg/max (ms): 0 / 0.01797 / 60.4037
+Delay Jitter current (ms): 21.3449   avg (ms) 0.00570385
+Rtt current (ms): 35.9502   min/avg/max (ms): 9.71248 / 32.3982 / 88.1087
+Rx Goodput curent (Mbps): 9.58275    /min/max 2.44894 / 10.7683
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999017
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 926642 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #44...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/44-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+Final data transmission state for the stream simulatedVideo
+--------------------------------------------------------
+	Transmission state 
+--------------------------------------------------------
+Time passed (sec) 1023.01
+Rcvd: pckts 959771   bytes: 0
+Sent: pckts 964206   bytes: 1181646663
+Lost: pckts 4415    rate (%): 0.457899
+Ooo: pckts 0  rate (%): 0
+Played: pckts 959771   rate (%): 100 per avg playout delay (ms) 0
+Repaired: pckts 0  rate (%): 0
+Retransmitted: pckts 21577  rate (%): 2.24814 succes NACK rate (%): 64.8347 per avg retr delay (ms) 0
+Repaired AND retransmitted: pckts 0
+Delay current (ms): 3.63027   min/avg/max (ms): 0 / 0.012239 / 356.952
+Delay Jitter current (ms): 0.0501883   avg (ms) 0.00451183
+Rtt current (ms): 10.2616   min/avg/max (ms): 7.30645 / 23.1827 / 192.149
+Rx Goodput curent (Mbps): 9.69051    /min/max 0.556656 / 11.162
+Rx FEC Goodput current (Mbps): 0    /min/max 0 / 2.22507e-308
+Instability duration: (sec)  1022    rate (%): 0.999017
+--------------------------------------------------------
+[StreamManager::~StreamManager] StreamManager is correctly destroyed..
+GymCommunicator::finish zmq-socket for the communicator is correctly closed
+GymCommunicator::run main loop has been externally finished...
+ShipApp::finish closing ShipApp...
+ShoreApp::finish has overall 959781 packets received 
+ShoreApp::finish closing ShoreApp...
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #45...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/45-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+./run: line 102:   493 Segmentation fault      (core dumped) ../../src/gymir5g -f $OMNETPP_FILE -r $RUN_NUM -m -u Cmdenv -c $RUN_CONFIG --sim-time-limit=$TIME_LIMIT --**.streamsConfigurationSchema=$STREAMS_CFG --**.hostAddress=$HOST_ADDRESS --**.adaptiveAlgorithm=$ADAPTIVE_ALGORITHM --**.stateUpdatePeriod=$STATE_UPDATE_PERIOD --**.logdir=$LOGDIR --**.isView=$IS_VIEW $NED_STRING
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #46...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/46-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  GymCommunicator::exchange a timeout for no reply, probably no replier on the python side
+./run: line 102:   498 Aborted                 (core dumped) ../../src/gymir5g -f $OMNETPP_FILE -r $RUN_NUM -m -u Cmdenv -c $RUN_CONFIG --sim-time-limit=$TIME_LIMIT --**.streamsConfigurationSchema=$STREAMS_CFG --**.hostAddress=$HOST_ADDRESS --**.adaptiveAlgorithm=$ADAPTIVE_ALGORITHM --**.stateUpdatePeriod=$STATE_UPDATE_PERIOD --**.logdir=$LOGDIR --**.isView=$IS_VIEW $NED_STRING
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #47...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/47-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  GymCommunicator::exchange a timeout for no reply, probably no replier on the python side
+./run: line 102:   504 Aborted                 (core dumped) ../../src/gymir5g -f $OMNETPP_FILE -r $RUN_NUM -m -u Cmdenv -c $RUN_CONFIG --sim-time-limit=$TIME_LIMIT --**.streamsConfigurationSchema=$STREAMS_CFG --**.hostAddress=$HOST_ADDRESS --**.adaptiveAlgorithm=$ADAPTIVE_ALGORITHM --**.stateUpdatePeriod=$STATE_UPDATE_PERIOD --**.logdir=$LOGDIR --**.isView=$IS_VIEW $NED_STRING
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #48...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/48-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  GymCommunicator::exchange a timeout for no reply, probably no replier on the python side
+./run: line 102:   509 Aborted                 (core dumped) ../../src/gymir5g -f $OMNETPP_FILE -r $RUN_NUM -m -u Cmdenv -c $RUN_CONFIG --sim-time-limit=$TIME_LIMIT --**.streamsConfigurationSchema=$STREAMS_CFG --**.hostAddress=$HOST_ADDRESS --**.adaptiveAlgorithm=$ADAPTIVE_ALGORITHM --**.stateUpdatePeriod=$STATE_UPDATE_PERIOD --**.logdir=$LOGDIR --**.isView=$IS_VIEW $NED_STRING
+OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+Version: 6.0.1, build: 220831-e4f07d04b8, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Cmdenv...
+
+Loading NED files from ..:  18
+Loading NED files from ../../src:  9
+Loading NED files from ../../../inet/src:  1186
+Loading NED files from ../../../simu5G/src:  93
+Loading NED files from ../../../veins/src/veins:  43
+Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  8
+
+Preparing for running configuration MixedRTCDirectNoFec, run #49...
+Redirecting output to file "/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/49-CMDENV_LOG.txt"...
+GymCommunicator::init connected to OpenAI Gym server at tcp://127.0.0.1:5660
+ShipApp::initialize succesfully initialized adaptive streaming, alg: drl_base
+ShipApp::initTraffic UDP socket is binded to local port 3088 and sends datagrams to: 192.168.0.2:3000
+ShipApp::initTraffic start data sending! ... 
+ShoreApp::initTraffic UDP socket is binded to local port 3000 and sends datagrams to: 10.0.0.3:3088
+ShoreApp::initTraffic start data sending! ... 
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  GymCommunicator::exchange a timeout for no reply, probably no replier on the python side
+./run: line 102:   514 Aborted                 (core dumped) ../../src/gymir5g -f $OMNETPP_FILE -r $RUN_NUM -m -u Cmdenv -c $RUN_CONFIG --sim-time-limit=$TIME_LIMIT --**.streamsConfigurationSchema=$STREAMS_CFG --**.hostAddress=$HOST_ADDRESS --**.adaptiveAlgorithm=$ADAPTIVE_ALGORITHM --**.stateUpdatePeriod=$STATE_UPDATE_PERIOD --**.logdir=$LOGDIR --**.isView=$IS_VIEW $NED_STRING

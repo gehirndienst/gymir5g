@@ -1,0 +1,89 @@
+{
+    "streamConfigs": [
+        {
+            "streamName": "video",
+            "streamType": "video",
+            "source": "../../tests/files/cam001.mp4",
+            "bufferLimit": 1,
+            "maxPacketSize": 1350,
+
+            "initQuality": 3,
+            "initEncodingSpeed": 2,
+
+            "minQuality": 0,
+            "maxQuality": 4,
+            "minEncodingSpeed": 0,
+            "maxEncodingSpeed": 4,
+
+            "sendInterval": 0.04,
+            "timestampsFile": "",
+
+            "historySize": 100,
+
+            "dataRate": 0.0,
+            "dataRateVariance": 0.0,
+            "dataRateFluctuationChance": 0.0,
+            "keyFramePeriod": 0.0,
+            "qualityPresets": [],
+
+            "verbose": 2
+        },
+        {
+            "streamName": "lidarRpm600",
+            "streamType": "lidar",
+            "source": "/media/sf_shared/lidar_00195_20220527090000.pcap",
+            "bufferLimit": 10,
+            "maxPacketSize": 64000,
+        
+            "initQuality": 3,
+            "initEncodingSpeed": 3,
+        
+            "minQuality": 0,
+            "maxQuality": 4,
+            "minEncodingSpeed": 0,
+            "maxEncodingSpeed": 4,
+        
+            "sendInterval": 0.1,
+            "timestampsFile": "",
+        
+            "historySize": 100,
+        
+            "dataRate": 0.0,
+            "dataRateVariance": 0.0,
+            "dataRateFluctuationChance": 0.0,
+            "keyFramePeriod": 0.0,
+            "qualityPresets": [],
+        
+            "verbose": 2
+        },
+        {
+            "streamName": "simulatedVideo",
+            "streamType": "sim",
+            "source": "../../tests/files/cam002.mp4",
+            "bufferLimit": 1,
+            "maxPacketSize": 1350,
+
+            "initQuality": 3,
+            "initEncodingSpeed": 2,
+
+            "minQuality": 0,
+            "maxQuality": 4,
+            "minEncodingSpeed": 0,
+            "maxEncodingSpeed": 4,
+
+            "sendInterval": 0.04,
+            "timestampsFile": "",
+
+            "historySize": 100,
+
+            "dataRate": 10000,
+            "dataRateMax": 10000,
+            "dataRateVariance": 0.2,
+            "dataRateFluctuationChance": 0.2,
+            "keyFramePeriod": 4.0,
+            "qualityPresets": [400, 1500, 3000, 6000, 10000],
+
+            "verbose": 0
+        }
+    ]
+}

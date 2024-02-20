@@ -1,0 +1,24 @@
+{
+    "state_vars": [
+        "rxGoodput",
+        "fractionLossRate",
+        "fractionRetransmissionRate",
+        "fractionAvRetransmissionDelay",
+        "fractionAvPlayoutDelay",
+        "fractionAvDelay",
+        "fractionAvJitter",
+        "fractionAvQueuingTime"
+    ],
+    "state_constants": {
+        "MAX_RATE": 10.0,
+        "MAX_DELAY": 500.0,
+        "MAX_JITTER": 400.0,
+        "MAX_PLAYOUT_DELAY": 250.0,
+        "FEEDBACK_PERIOD": 0.1,
+        "REPORT_PERIOD": 1.0
+    },
+    "reward_function": "qoe_acm_v2",
+    "action_space": "Discrete(5)",
+    "is_scale": false,
+    "is_fill_nulls_with_running_limits": true
+}

@@ -1,0 +1,34 @@
+{
+    "streamConfigs": [
+        {
+            "streamName": "simulatedVideo",
+            "streamType": "sim",
+            "source": "../../tests/files/cam002.mp4",
+            "bufferLimit": 1,
+            "maxPacketSize": 1300,
+
+            "initQuality": 0,
+            "initEncodingSpeed": 2,
+
+            "minQuality": 0,
+            "maxQuality": 4,
+            "minEncodingSpeed": 0,
+            "maxEncodingSpeed": 4,
+
+            "sendInterval": 0.01,
+            "timestampsFile": "",
+
+            "historySize": 100,
+
+            "dataRate": 10000,
+            "dataRateMin": 400,
+            "dataRateMax": 10000,
+            "dataRateVariance": 0.0,
+            "dataRateFluctuationChance": 0.0,
+            "keyFramePeriod": 0.0,
+            "qualityPresets": [400, 1500, 3000, 6000, 10000],
+
+            "verbose": 2
+        }
+    ]
+}

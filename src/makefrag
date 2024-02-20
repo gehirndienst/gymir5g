@@ -1,0 +1,8 @@
+CXXFLAGS += -std=c++2a
+CFLAGS += -O3
+CFLAGS += -march=native
+CFLAGS += -fomit-frame-pointer
+CFLAGS += -fstrict-aliasing
+CFLAGS += -funroll-loops
+CFLAGS += -finline-functions
+CFLAGS += -fno-stack-protector

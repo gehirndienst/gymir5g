@@ -1,0 +1,42 @@
+{
+    "configurations": [
+        {
+            "name": "linux-gcc-x64-vm",
+            "includePath": [
+                "/usr/local/include/**",
+                "/usr/include/**",
+                "${workspaceFolder}/**",
+                "/home/simu5g/simu5g-workspace/**",
+                "/home/simu5g/simu5g-workspace/inet/src/**",
+                "/home/simu5g/simu5g-workspace/simu5G/src/**",
+                "/home/simu5g/omnetpp-6.0/include/**",
+                "/home/simu5g/omnetpp-6.0/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "compilerArgs": []
+        },
+        {
+            "name": "linux-gcc-x64-docker",
+            "includePath": [
+                "/usr/local/include/**",
+                "/usr/include/**",
+                "${workspaceFolder}/**",
+                "/opt/omnetpp-workspace/**",
+                "/opt/omnetpp-workspace/inet/src/**",
+                "/opt/omnetpp-workspace/simu5G/src/**",
+                "/opt/omnetpp-6.0.1/include/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "compilerArgs": []
+        }
+    ],
+    "version": 4
+}

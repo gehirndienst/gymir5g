@@ -1,0 +1,26 @@
+{
+    "state_vars": [
+        "fractionLossRate",
+        "fractionNackRate",
+        "fractionPliRate",
+        "fractionRtt",
+        "fractionQueueingRtt",
+        "interarrivalRttJitter",
+        "lossRate",
+        "rttIqr",
+        "rttMean",
+        "rttStd",
+        "rxGoodput"
+    ],
+    "state_constants": {
+        "MAX_RATE": 15.0,
+        "MAX_DELAY": 1000.0,
+        "MAX_JITTER": 1000.0,
+        "FEEDBACK_PERIOD": 0.25,
+        "REPORT_PERIOD": 3.0
+    },
+    "reward_function": "ahoy",
+    "action_space": "Box(low=-1.0, high=1.0, shape=(1,), dtype=np.float64)",
+    "is_scale": true,
+    "is_fill_nulls_with_running_limits": true
+}

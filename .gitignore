@@ -1,0 +1,56 @@
+# source
+src/gymir5g
+src/gymir5g_dbg
+src/Makefile
+src/Makefile.vc
+/doc/doxy/
+/doc/neddoc/
+*.sca
+*.vec
+*.vci
+*.anf
+*.qtenvrc
+.settings/
+err/
+src/err
+
+# binary
+out/
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.exe
+*.o
+*.obj
+*.pdb
+*.idb
+*.manifest
+.tkenvrc
+.tkenvlog
+*.out
+.computed
+
+# log & temp
+*.bak
+backups
+*~
+*.log
+
+# results
+
+/simulations/*/results*/
+/simulations/*/*/results*/
+/simulations/*/*/*/results*/
+/simulations/*/.cmdenv-log
+*.rt
+*.elog
+
+# python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*/.ipynb_checkpoints/*.ipynb

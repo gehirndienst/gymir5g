@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+      {
+        "name": "debug",
+        "type": "cppdbg",
+        "request": "launch",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "/home/simu5g/simu5g-workspace/gymir5g/tests",
+        "environment": [],
+        "program": "${fileDirname}/${fileBasenameNoExtension}",
+        "internalConsoleOptions": "openOnSessionStart",
+        "MIMode": "gdb",
+        "miDebuggerPath": "/usr/bin/gdb",
+        "externalConsole": false,
+        "setupCommands": [
+          {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+          },
+          // {
+          //   "description": "Additional omnet libs for gdb",
+          //   "text": "set env LD_LIBRARY_PATH=/home/simu5g/omnetpp-6.0/lib"
+          // }
+        ]
+      }
+    ]
+}
+  

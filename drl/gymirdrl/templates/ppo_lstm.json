@@ -1,0 +1,23 @@
+{
+    "policy": "MultiInputLstmPolicy",
+    "n_steps": 1024,
+    "batch_size": 256,
+    "gamma": 0.99,
+    "learning_rate": 0.00025,
+    "n_epochs": 10,
+    "gae_lambda": 0.95,
+    "clip_range": 0.15,
+    "ent_coef": 0.01,
+    "use_sde": true,
+    "sde_sample_freq": 4,
+    "policy_kwargs": {
+        "ortho_init":false, 
+        "activation_fn": "relu",
+        "lstm_hidden_size": 64,
+        "enable_critic_lstm": true, 
+        "net_arch": {
+            "pi": [64], 
+            "vf": [64]
+        }
+    }
+}

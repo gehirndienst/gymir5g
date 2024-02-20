@@ -1,0 +1,102 @@
+#!/bin/bash
+
+# default args
+RUNS=2
+FIRST_RUN_NUM=0
+SAME_RUN_NUM=-1
+TIME_LIMIT='600s'
+RUN_CONFIG='Moderate'
+OMNETPP_FILE='omnetpp.ini'
+
+# app args
+STREAMS_CFG=\"../../configurations/baseDrl/streams_sim_webrtc.json\"
+STATE_UPDATE_PERIOD=1s
+HOST_ADDRESS=\"127.0.0.1:5555\"
+ADAPTIVE_ALGORITHM=\"drl_base\"
+LOGDIR=\"\"
+IS_VIEW=false
+
+while (( $# >= 1 )); do
+    case "$1" in
+    -r | --runs)
+            RUNS="$2"
+            shift 2
+            ;;
+    -f | --from-run)
+            FIRST_RUN_NUM="$2"
+            shift 2
+            ;;
+    -s  | --same-run)
+            SAME_RUN_NUM="$2"
+            shift 2
+            ;;
+    -t  | --time-limit)
+            TIME_LIMIT="$2s" # add 's' as seconds"
+            shift 2
+            ;;
+    -c | --config)
+            RUN_CONFIG="$2"
+            shift 2
+            ;;
+    -o | --omnetpp-file)
+            OMNETPP_FILE="$2"
+            shift 2
+            ;;
+    -sc | --streams-cfg)
+            STREAMS_CFG=\"$2\"
+            shift 2
+            ;;
+    -su | --state-update-period)
+            STATE_UPDATE_PERIOD="$2s"
+            shift 2
+            ;;
+    -ad | --adaptive-algorithm)
+            ADAPTIVE_ALGORITHM=\"$2\"
+            shift 2
+            ;;
+    -host | --host-address)
+            HOST_ADDRESS=\"$2\"
+            shift 2
+            ;;
+    -l | --logdir)
+            LOGDIR=\"$2\"
+            shift 2
+            ;;
+    -view | --is-view)
+            IS_VIEW="$2"
+            shift 2
+            ;;
+    -h | --help)
+            #help TODO:
+            exit 0
+            ;;
+    -*)
+            echo "An unknown option: $1" >&2
+            exit 1 
+            ;;
+    --)
+            shift
+            break
+            ;;
+    *)
+            break
+            ;;
+    esac
+done
+
+NED_STRING='-n ..:../../src:../../../inet/src:../../../simu5G/src:../../../veins/src/veins:../../../veins/subprojects/veins_inet/src/veins_inet -x inet.linklayer.configurator.gatescheduling.z3 --image-path=../../../inet/images:../../../simu5G/images:../../../veins/images:../../../veins/subprojects/veins_inet/images -l ../../../inet/src/INET -l ../../../simu5G/src/simu5g -l ../../../veins/src/veins -l ../../../veins/subprojects/veins_inet/src/veins_inet'
+
+if [[ $RUNS -eq 0 ]]
+then
+    ../../src/gymir5g -f $OMNETPP_FILE -m -u Cmdenv -c $RUN_CONFIG --sim-time-limit=$TIME_LIMIT --**.streamsConfigurationSchema=$STREAMS_CFG --**.hostAddress=$HOST_ADDRESS --**.adaptiveAlgorithm=$ADAPTIVE_ALGORITHM --**.stateUpdatePeriod=$STATE_UPDATE_PERIOD --**.logdir=$LOGDIR --**.isView=$IS_VIEW $NED_STRING 
+else
+    for (( RUN_NUM = $FIRST_RUN_NUM ; RUN_NUM < $(( FIRST_RUN_NUM + RUNS ))  ; RUN_NUM++ ))
+        do
+            if [[ $SAME_RUN_NUM -ge 0 ]]
+            then
+                ../../src/gymir5g -f $OMNETPP_FILE -r $SAME_RUN_NUM -m -u Cmdenv -c $RUN_CONFIG --sim-time-limit=$TIME_LIMIT --**.streamsConfigurationSchema=$STREAMS_CFG --**.hostAddress=$HOST_ADDRESS --**.adaptiveAlgorithm=$ADAPTIVE_ALGORITHM  --**.stateUpdatePeriod=$STATE_UPDATE_PERIOD --**.logdir=$LOGDIR --**.isView=$IS_VIEW $NED_STRING
+            else 
+                ../../src/gymir5g -f $OMNETPP_FILE -r $RUN_NUM -m -u Cmdenv -c $RUN_CONFIG --sim-time-limit=$TIME_LIMIT --**.streamsConfigurationSchema=$STREAMS_CFG --**.hostAddress=$HOST_ADDRESS --**.adaptiveAlgorithm=$ADAPTIVE_ALGORITHM --**.stateUpdatePeriod=$STATE_UPDATE_PERIOD --**.logdir=$LOGDIR --**.isView=$IS_VIEW $NED_STRING
+            fi
+        done
+fi

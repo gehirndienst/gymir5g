@@ -1,0 +1,26 @@
+sim-path: /opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/omnetpp.ini
+sim-address-first: 127.0.0.1:5660
+runs: 50
+from-run: 0
+same-run: -1
+scenario: MixedRTCDirectNoFec
+streams-cfg: /opt/omnetpp-workspace/gymir5g/configurations/baseDrl/streams_sim_webrtc.json
+time-limit: 1024
+update-period: 1.0
+adaptive-algorithm: drl_base
+mode: train
+env-cfg: /opt/omnetpp-workspace/gymir5g/configurations/mdps/combine_v2_cont.json
+num-envs: 1
+model-name: sac
+model-hyperparams: /opt/omnetpp-workspace/gymir5g/configurations/mdps/sac_hyperparam.json
+model-file: None
+is-use-veins: True
+model-dir: /opt/omnetpp-workspace/gymir5g/drl/models/model_20231013-192435
+log-dir: /opt/omnetpp-workspace/gymir5g/drl/logs/log_20231013-192435
+is-view: False
+-----------------------------------------------------
+Training sim-cmd: 
+	python run.py -r 50 -f 0 -t 1024 -port 5660 -scen MixedRTCDirectNoFec -u 1.0 -s /opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/omnetpp.ini -sc /opt/omnetpp-workspace/gymir5g/configurations/baseDrl/streams_sim_webrtc.json -ec /opt/omnetpp-workspace/gymir5g/configurations/mdps/combine_v2_cont.json -mn sac -hc /opt/omnetpp-workspace/gymir5g/configurations/mdps/sac_hyperparam.json -envs 1 -uv -cb save_model save_step print_step --save-drl-log --save-sim-log -v 1
+Evaluation sim-cmd: (add model file with -mf <filepath> and optionally enable eval reward collection with --save-model-log): 
+	python run.py -r 50 -f 0 -t 1024 -port 5660 -scen MixedRTCDirectNoFec -u 1.0 -s /opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/omnetpp.ini -sc /opt/omnetpp-workspace/gymir5g/configurations/baseDrl/streams_sim_webrtc.json -ec /opt/omnetpp-workspace/gymir5g/configurations/mdps/combine_v2_cont.json -mn sac -hc /opt/omnetpp-workspace/gymir5g/configurations/mdps/sac_hyperparam.json -envs 1 -uv -cb save_model save_step print_step -v 1 -m eval
+-----------------------------------------------------

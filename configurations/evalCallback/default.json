@@ -1,0 +1,13 @@
+{
+    "sim_path": "../../simulations/baseDrlBg/omnetpp.ini",
+    "scenario": "Same",
+    "streams_cfg": "../baseDrl/streams_sim_webrtc_same.ini",
+    "from_run": 0,
+    "episodes": 5,
+    "steps": 200,
+    
+    "warmup_steps": 5000,
+    "eval_freq": 5000,
+    "patience": 3,
+    "deterministic": false
+}

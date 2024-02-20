@@ -1,0 +1,302 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "ZMQTEST",
+            "command": "/usr/bin/g++",
+            "args": [
+                "--std=c++17",
+                "-g",
+                "${file}",
+                "${workspaceFolder}/src/model/DRLSetup.cc",
+                "${workspaceFolder}/src/apps/shore/GymCommunicator.cc",
+                "-lzmq",
+                "-lpthread",
+                "-Wall",
+                "-o0",
+                "-march=native",
+                "-I",
+                "${workspaceFolder}/src",
+                "-I",
+                "/usr/local/include/",
+                "-I",
+                "/usr/include/",
+                "-L",
+                "/usr/local/lib/",
+                "-L",
+                "/usr/lib/",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "options": {
+                "cwd": "/usr/bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build"
+        },
+        {
+            "type": "shell",
+            "label": "MAIN_TEST",
+            "command": "/usr/bin/g++",
+            "args": [
+                "--std=c++17",
+                "-g",
+                "${file}",
+                "${workspaceFolder}/src/model/*.cc",
+                "-lpcap",
+                "-lx264",
+                "-lpthread",
+                "-lboost_thread",
+                "-lboost_iostreams",
+                "-lboost_serialization",
+                "-lopencv_core",
+                "-lopencv_highgui",
+                "-lopencv_videoio",
+                "-lopencv_features2d",
+                "-lopencv_imgcodecs",
+                "-lopencv_imgproc",
+                "-lavformat",
+                "-lavcodec",
+                "-lavutil",
+                "-lswscale",
+                "-lvmaf",
+                "-lpcl_common",
+                "-lpcl_io",
+                "-lpcl_visualization",
+                "-lpcl_octree",
+                "-lvtkCommonDataModel-7.1",
+                "-lvtkCommonCore-7.1",
+                "-lvtkRenderingCore-7.1",
+                "-lvtkCommonMath-7.1",
+                "-Wall",
+                "-o0",
+                "-march=native",
+                "-I",
+                "${workspaceFolder}/src",
+                "-I",
+                "/usr/local/include/opencv4/",
+                "-I",
+                "/usr/local/include/pcl-1.12/",
+                "-I",
+                "/usr/include/eigen3/",
+                "-I",
+                "/usr/include/vtk-7.1/",
+                "-I",
+                "/home/simu5g/omnetpp-6.0/include",
+                "-L",
+                "/usr/local/lib/",
+                "-L",
+                "/usr/lib/",
+                "-L",
+                "/home/simu5g/omnetpp-6.0/lib",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "options": {
+                "cwd": "/usr/bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "type": "shell",
+            "label": "MAIN_NO_OMNET",
+            "command": "/usr/bin/g++",
+            "args": [
+                "--std=c++17",
+                "-g",
+                "${file}",
+                "${workspaceFolder}/src/model/video/VideoEncoder*.cc",
+                "${workspaceFolder}/src/model/video/VideoDecoder.cc",
+                "${workspaceFolder}/src/model/lidar/PointCloud*.cc",
+                "${workspaceFolder}/src/model/lidar/VLPLidarGrabber.cc",
+                "${workspaceFolder}/src/model/stream/StreamReceiver.cc",
+                "-lpcap",
+                "-lx264",
+                "-lpthread",
+                "-lboost_thread",
+                "-lboost_iostreams",
+                "-lboost_serialization",
+                "-lopencv_core",
+                "-lopencv_highgui",
+                "-lopencv_videoio",
+                "-lopencv_features2d",
+                "-lopencv_imgcodecs",
+                "-lopencv_imgproc",
+                "-lavformat",
+                "-lavcodec",
+                "-lavutil",
+                "-lswscale",
+                "-lvmaf",
+                "-lpcl_common",
+                "-lpcl_io",
+                "-lpcl_visualization",
+                "-lpcl_octree",
+                "-lvtkCommonDataModel-7.1",
+                "-lvtkCommonCore-7.1",
+                "-lvtkRenderingCore-7.1",
+                "-lvtkCommonMath-7.1",
+                "-Wall",
+                "-o0",
+                "-march=native",
+                "-I",
+                "${workspaceFolder}/src",
+                "-I",
+                "/usr/local/include/opencv4/",
+                "-I",
+                "/usr/local/include/pcl-1.12/",
+                "-I",
+                "/usr/include/eigen3/",
+                "-I",
+                "/usr/include/vtk-7.1/",
+                "-I",
+                "/home/simu5g/omnetpp-6.0/include",
+                "-L",
+                "/usr/local/lib/",
+                "-L",
+                "/usr/lib/",
+                "-L",
+                "/home/simu5g/omnetpp-6.0/lib",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "options": {
+                "cwd": "/usr/bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "type": "shell",
+            "label": "x264_test",
+            "command": "/usr/bin/g++",
+            "args": [
+                "--std=c++17",
+                "-g",
+                "${file}",
+                "${workspaceFolder}/src/model/video/VideoEncoder*.cc",
+                "${workspaceFolder}/src/model/video/VideoDecoder*.cc",
+                "-lpthread",
+                "-lx264",
+                "-lopencv_core",
+                "-lopencv_highgui",
+                "-lopencv_videoio",
+                "-lopencv_features2d",
+                "-lopencv_imgcodecs",
+                "-lopencv_imgproc",
+                "-lavformat",
+                "-lavcodec",
+                "-lavutil",
+                "-lswscale",
+                "-lvmaf",
+                "-Wall",
+                "-o0",
+                "-I",
+                "${workspaceFolder}/src/tests/other",
+                "-I",
+                "/usr/local/include/opencv4/",
+                "-L",
+                "/usr/local/lib/",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "options": {
+                "cwd": "/usr/bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "type": "shell",
+            "label": "pcl_test",
+            "command": "/usr/bin/g++",
+            "args": [
+                "--std=c++17",
+                "-g",
+                "${file}",
+                "${workspaceFolder}/src/model/lidar/VLPLidarGrabber.cc",
+                "${workspaceFolder}/src/model/lidar/PointCloud*.cc",
+                "-Wl,--copy-dt-needed-entries",
+                "-lpcl_common",
+                "-lpcl_io",
+                "-lpcl_visualization",
+                "-lpcl_octree",
+                "-lpcl_kdtree",
+                "-lpcl_features",
+                "-lpcl_filters",
+                "-lpcl_segmentation",
+                "-lvtkCommonDataModel-7.1",
+                "-lvtkCommonCore-7.1",
+                "-lvtkRenderingCore-7.1",
+                "-lvtkCommonMath-7.1",
+                "-lpthread",
+                "-lboost_thread",
+                "-lboost_iostreams",
+                "-lboost_serialization",
+                "-Wall",
+                "-o0",
+                "-march=native",
+                "-I",
+                "${workspaceFolder}/src",
+                "-I",
+                "/usr/local/include/pcl-1.12/",
+                "-I",
+                "/usr/include/eigen3/",
+                "-I",
+                "/usr/include/vtk-7.1/",
+                "-I",
+                "/home/simu5g/omnetpp-6.0/include",
+                "-L",
+                "/usr/local/lib/",
+                "-L",
+                "/usr/lib/",
+                "-L",
+                "/home/simu5g/omnetpp-6.0/lib",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "options": {
+                "cwd": "/usr/bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "pipenv run",
+            "type": "process",
+            "command": "pipenv",
+            "args": [
+                "run",
+                "python",
+                "${file}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

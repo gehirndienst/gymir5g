@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "gymirdrl"
+version = "1.0.1"
+description = "\"OMNeT++-based Gymir5G + SB3-based Deep Reinforcement Learning\""
+authors = ["Nikita Smirnov <nsm@informatik.uni-kiel.de>"]
+readme = "README.md"
+packages = [
+    { include = "gymirdrl" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+ipython = "*"
+pyzmq = "*"
+jsonpointer = "^2.4"
+swig = "^4.1.0"
+wrapt = "*"
+
+torch = ">=2.0.0, !=2.0.1"
+stable-baselines3 = "*"
+sb3-contrib = "*"
+rl_zoo3 = "*"
+gymnasium = "^0.29.0"
+pygame = "*"
+box2d-py = "*"
+pytorch-lightning = "*"
+tensorboard = "*"
+seaborn = "*"
+jupyter = "*"
+optuna = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+[virtualenvs]
+create = true
+in-project = true
+
+[build-system]
+requires = ["poetry-core>=1.2.0"]
+build-backend = "poetry.core.masonry.api"
