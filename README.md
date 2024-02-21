@@ -8,7 +8,7 @@ A code for the paper: Nikita Smirnov and Sven Tomforde: **Gymir5G: A simulation 
 Please go to the [docker](docker) folder and follow the instructions there.
 
 # Docs
-The full documentation is in the process of being written...
+The full documentation is in the process of being written... please read the paper for the details of the project.
 
 # Usage
 In the `src` folder you will find the source  C++ code for all the OMNeT++-related components of the Gymir5G project. Please follow the "unwrapping" approach and start inspecting the code from the `apps` folder. It contains the sender and the receiver applications. The code for these applications includes the code for the stream management, the code for the RTC set and the code for the communicator and adaptive streaming.
