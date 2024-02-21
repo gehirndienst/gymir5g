@@ -7,7 +7,7 @@ poetry run python run.py \
     -f 0 \
     -t 1536 \
     -port 6111 \
-    -scen 'EasyRTCDirectNoFec' \
+    -scen 'MixedRTCDirectNoFec' \
     -u 3.0 \
     -s '/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/omnetpp.ini' \
     -sc '/opt/omnetpp-workspace/gymir5g/configurations/baseDrl/streams_sim_webrtc_20fps.json' \
