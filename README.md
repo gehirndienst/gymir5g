@@ -2,7 +2,7 @@
 If you are looking for the repo for the paper Nikita Smirnov and Sven Tomforde: **Real-time rate control of WebRTC video streams in 5G networks: Improving quality of experience with Deep Reinforcement Learning**, *Journal of Systems Architecture, vol 148, 2024*, it has moved to another repo, please follow the link: [https://github.com/gehirndienst/gymir5g_jsa](https://github.com/gehirndienst/gymir5g_jsa). This repo contains the full source code for Gymir5G that was used in this paper in a compiled form for the evaluation of the DRL model.
 
 # Gymir5G
-A code for the paper: Nikita Smirnov and Sven Tomforde: **Gymir5G: A simulation platform to study data transmission in 5G networks with Deep Learning assistance**
+A code for the paper: Nikita Smirnov and Sven Tomforde: **Gymir5G: A simulation platform to study data transmission in 5G networks with Deep Learning assistance**, *29th IEEE Symposium on Computers and Communications (ISCC), IEEE ISCC 2024 | 26-29 June, Paris, France*
 
 # Installation
 Please go to the [docker](docker) folder and follow the instructions there.
