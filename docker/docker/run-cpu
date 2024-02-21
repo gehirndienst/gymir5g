@@ -1,3 +1,0 @@
-#!/bin/sh
-HOST_ADDRESS=10.10.10.221
-docker run -it --rm --name gymir5g-cpu-container --network=host -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$HOST_ADDRESS:0 gymir5g-cpu:latest bash

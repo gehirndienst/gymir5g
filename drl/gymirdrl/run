@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# run script for gymir5gdrl
+cd /opt/omnetpp-workspace/gymir5g/drl/gymirdrl && \
+poetry run python run.py \
+    -r 40 \
+    -f 0 \
+    -t 1536 \
+    -port 6111 \
+    -scen 'EasyRTCDirectNoFec' \
+    -u 3.0 \
+    -s '/opt/omnetpp-workspace/gymir5g/simulations/baseDrlBg/omnetpp.ini' \
+    -sc '/opt/omnetpp-workspace/gymir5g/configurations/baseDrl/streams_sim_webrtc_20fps.json' \
+    -ec '/opt/omnetpp-workspace/gymir5g/configurations/mdps/ahoy.json' \
+    -mn 'sac' \
+    -hc '/opt/omnetpp-workspace/gymir5g/configurations/mdps/sac_hyperparam.json' \
+    -envs 1 \
+    -uv \
+    -cb save_model save_step print_step \
+    --save-drl-log \
+    --save-sim-log \
+    -v 1
